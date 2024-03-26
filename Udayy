@@ -1,0 +1,97 @@
+#B#asic Skills
+#Coding Exercises
+Exercise1. Declare a variable my_boolean and assign it the boolean value of true. Print the variable.
+my_boolean = True
+print(my_boolean)
+#Exercise2. Declare a variable my_int and assign it the integer value of 3. Print the variable.
+my_int = 3
+print(my_int)
+#Excerise3. Declare a variable my_string and assign it the string value of:This is a string Print the variable.
+my_string = "This is a string"
+print(my_string)
+#Excerise4. Declare a variable my_float and assign it the floating point value of 3.0. Print the variable.
+my_float = 3.0
+print(my_float)
+#Excerise5. Use two print statements to write the following string: Okay, it is time to learn about operators.
+print("Okay, ", end='')
+print("it is time to learn about operators.")
+
+#Operators
+##Coding Exercises
+The correct answer is a = 4 and b = 9.
+The correct answer is: print(not b and not a or not not c)
+
+var_1 = "Hello"
+var_2 = " world"
+print(var_1 + var_2)
+
+print(7 // 2)
+
+a = 3.0
+b = "2"
+print(int(a) + int(b))
+
+#Conditionals
+##Coding Exercises
+
+if x > 0 and x < 25 or x > 75 and x < 100:
+    print(str(x) + " is between 0 and 25 or 75 and 100")
+
+if x % 5 == 0:
+    print(str(x) + " is divisible by 5")
+else:
+    print(str(x) + " is not divisible by 5")
+
+if x % 5 == 0 and x % 2 == 0:
+    print(str(x) + " is divisible by 5 and even")
+else:
+    print(str(x) + " is not divisible by 5 or it is odd")
+
+if x == "red":
+    print(x + " is a primary color")
+elif x == "blue":
+    print(x + " is a primary color")
+elif x == "yellow":
+    print(x + " is a primary color")
+else:
+    print(x + " is not a primary color")
+
+if x == "a" or x == "e" or x =="i" or x == "o" or x == "u":
+    print(x + " is a vowel")
+else:
+    print(x + " is not a vowel")
+
+# Loops
+#Exercises
+t.forward(100)
+t.lt(120)
+
+count = 0
+while count < 10:
+    count = count + 1
+
+total = 0
+number = 0
+
+while True:
+    total += number
+    number += 1
+    if number > 100:
+        break
+
+print(total)
+
+
+for outer_loop in range(4):
+    for inner_loop in range(4):
+        t.forward(50)
+        t.rt(90)
+    t.forward(100)
+for last_loop in range(4):
+        t.forward(50)
+        t.rt(90)
+
+for num in range(1,6):
+  for dots in range(5-num, 0, -1):
+    print(".", end='')
+  print(num)
